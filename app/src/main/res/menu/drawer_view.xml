@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Luyện Tập">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_grammar"-->
+                <!--android:icon="@drawable/ic_dashboard"-->
+                <!--android:title="Ngữ pháp" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_vocabulary"-->
+                <!--android:icon="@drawable/ic_event"-->
+                <!--android:title="Từ Vựng" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_story"-->
+                <!--android:icon="@drawable/ic_headset"-->
+                <!--android:title="Đàm Thoại" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_pronunciation"-->
+                <!--android:icon="@drawable/ic_forum"-->
+                <!--android:title="Luyện phát Âm" />-->
+        </menu>
+    </item>
+
+    <item android:title="Đấu trường">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_easy"-->
+                <!--android:icon="@drawable/ic_dashboard"-->
+                <!--android:title="Dễ" />-->
+            <!--<item-->
+                <!--android:icon="@drawable/ic_forum"-->
+                <!--android:title="Trung Bình" />-->
+            <!--<item-->
+                <!--android:icon="@drawable/ic_forum"-->
+                <!--android:title="Khó" />-->
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_marginTop="2dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:background="@color/colorPink"
+        android:orientation="horizontal"
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/iv_result"
+            android:src="@drawable/ic_check"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_test_id"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/colorWhite"
+                android:text="CR-1000001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_class_name"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorWhiteGray"
+                android:text="ProvisioningManager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorWhiteGray"
+            android:text="1h20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:tag="GONE"
+        android:visibility="visible"
+        android:id="@+id/ll_detail"
+        android:background="@color/colorYellowLight"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:shrinkColumns="1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow android:padding="1dp">
+                <TextView
+                    android:textColor="@color/colorPink"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/test" />
+                <TextView
+                    android:id="@+id/tv_test_id_detail"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPink"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="CR-1000002" />
+            </TableRow>
+            <TableRow android:padding="1dp">
+                <TextView
+                    android:textColor="@color/colorPink"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/description" />
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPink"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Provisioning with Encrypted APIN" />
+            </TableRow>
+            <TableRow android:padding="1dp">
+                <TextView
+                    android:textColor="@color/colorPink"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/return_code" />
+                <TextView
+                    android:id="@+id/tv_return_code"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPink"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="40800" />
+            </TableRow>
+            <TableRow android:padding="1dp">
+                <TextView
+                    android:textColor="@color/colorPink"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/result" />
+                <TextView
+                    android:textAllCaps="true"
+                    android:id="@+id/tv_result"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPink"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="PASSED" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

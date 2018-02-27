@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AutomationCore</string>
+    <string name="vguar_sdk_test">V-Guard</string>
+    <string name="result">Result</string>
+    <string name="return_code">Retun code</string>
+    <string name="description">Description</string>
+    <string name="test">Test ID</string>
+    <string name="title_error">Error</string>
+    <string name="filter_not_found">not found</string>
+    <string name="empty_test_case">Empty testcase</string>
+</resources>
